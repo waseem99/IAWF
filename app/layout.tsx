@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans, Noto_Serif } from "next/font/google";
-import "./globals.css";
+import "./base.css";
 import "./living-fireline.css";
 
 const notoSans = Noto_Sans({ subsets: ["latin"], display: "swap", variable: "--font-sans" });
