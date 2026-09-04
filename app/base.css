@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+a { text-underline-offset: 3px; }
+button, input { font: inherit; }
+svg { display: block; }
+.skip-link { position: fixed; left: 16px; top: 12px; z-index: 10000; transform: translateY(-160%); background: #fff; color: #153a3a; padding: 10px 14px; border-radius: 999px; font-weight: 850; text-decoration: none; transition: transform .2s ease; }
+.skip-link:focus { transform: translateY(0); }
+:focus-visible { outline: 3px solid #d99a2b; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
